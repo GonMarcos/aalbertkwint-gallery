@@ -4,34 +4,11 @@
   align-items: center;
   justify-content: center;
 
-  margin-top: 15rem;
+  margin-top: 8rem;
 }
 
 .Main h2 {
   margin-bottom: 3rem;
 }
 
-.Main ul {
-  display: flex;
-  margin-bottom: 20px;
-  gap: 16px;
-}
 
-
-.latest {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2px;
-}
-
-.arrow-up {
-  position: fixed;
-  right: 10px;
-  bottom: 55px;
-}
-
-.arrow-up:hover {
-  cursor: pointer;
-}

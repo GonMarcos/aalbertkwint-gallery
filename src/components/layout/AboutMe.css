@@ -1,15 +1,35 @@
 .about-me {
-    height: 100%;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height:2.2em
+    line-height:2.2em;
+    
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+
+    width: 100%;
+    max-width: 920px;
+    margin-bottom: 5rem;
+
+    padding: 100px;
+}
+
+
+.about-me p {
+    text-align: left;
+    padding: 10px;
 }
 
 
 @media only screen and (max-width: 600px) {
     .about-me {
-        margin-bottom: 600px;
+        padding: 10px;
+        margin-bottom: 2rem;
+        border-radius: 0;
+    }
+
+    .about-me p {
+        padding: 8px;
     }
 }
