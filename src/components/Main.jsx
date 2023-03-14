@@ -8,7 +8,7 @@ function Main() {
     <div className="Main" id="Main">
       <h2>Gallery</h2>
       <Gallery/>
-      <AboutMe />
+      <AboutMe/>
     </div>
   );
 }
